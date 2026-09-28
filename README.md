@@ -17,8 +17,8 @@ Clone this repository, open it in Codex, Claude Code, or another coding agent, a
 > Read skills/curate-work-context/SKILL.md. Help me prepare a small dataset from AI chats and Screenpipe history I select. Keep it local while we review it. Then use skills/train-with-river/SKILL.md to plan a River experiment and skills/evaluate-personal-model/SKILL.md to compare the results. Start with one behavior I want my model to learn.
 
 ```sh
-git clone https://github.com/screenpipe/personal-ai.git
-cd personal-ai
+git clone https://github.com/screenpipe/river-ai-screenpipe-training.git
+cd river-ai-screenpipe-training
 python3 scripts/prepare_dataset.py examples/reviewed.jsonl --out data/demo
 python3 scripts/train.py --data data/demo
 ```
